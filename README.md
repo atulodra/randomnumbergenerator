@@ -4,7 +4,12 @@
   This header file includes a function that generates (pseudo) random numbers.
   
 ### How to
-  The function **randomNumberGenerator()** takes in an array of a certain size and generates random numbers according to the size of the array. 
+  The first thing to do is to include the "randomnumbergenerator.h" header file into your file as:
+  ```C
+    #include "randomnumbergenerator.h"
+  ```
+
+  From there you can call the function **randomNumberGenerator()** that takes in an array of a certain size and generates random numbers according to the size of the array. 
   The declartion of function is such:
   ```C
     void randomNumnerGenerator(int *array, int size)
