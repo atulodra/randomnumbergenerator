@@ -16,7 +16,7 @@
   ```
 
   From there you can call the function **randomNumberGenerator()** that takes in an array of a certain size and generates random numbers according to the size of the array. 
-  The declartion of function is such:
+  The declaration of function is such:
   ```C
     void randomNumnerGenerator(int *array, int size)
   ```
